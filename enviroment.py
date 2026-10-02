@@ -16,7 +16,7 @@ class Env(object):
         :param args:
         """
         self.args = args
-        self.DATA_PATH = 'baby' # data path
+        self.DATA_PATH = self.args.dataset # data path: folder named after --dataset
         self.ROOT_PATH = './' # code path
 
         self.DATA_PATH = os.path.join(self.DATA_PATH)

@@ -178,6 +178,10 @@ MAMEX/
 
 ### Download Links
 - **Amazon Baby Dataset**: [Google Drive Download Link](https://drive.google.com/file/d/1C-18Y84lMS5xsRGwKQYa9P0Tot-gxgYY/view)
+- **Amazon Clothing Dataset**: [Google Drive Download Link](https://drive.google.com/file/d/1A-hkU9RzT6P-2NoFeqsw_y4DHbXqBgt5/view?usp=sharing)
+- **Amazon Sports Dataset**: [Google Drive Download Link](https://drive.google.com/file/d/11u9YGUpWYxIVPsUiU2uyeunQvYNWxixI/view?usp=sharing)
+
+Baby uses the data and pre-extracted features released by MILK; Clothing and Sports use CLIP-based features. Extract each dataset into a folder named after its `--dataset` value (`baby/`, `clothing/`, `sport/`). Only `train.txt`, `val.txt`, `test.txt`, `cold_item_index.npy`, `image_feat.npy` and `text_feat.npy` are read; any other files in the Clothing and Sports archives are ignored.
 
 ---
 
